@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+	width:100%;
+	margin:auto;
+    padding-top: 5px;
+}
+header {
+    position:fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav ol {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.nav li {
+    position: relative;
+}
+.nav a,.login a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login{
+    padding-left: 280px;
+}
+.nav a:hover,.login a:hover {
+    font-size: 21px;
+    color: #09d9d6;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    z-index: 1;
+}
+.nav li:hover .dropdown {
+    display: block;
+}
+.dropdown li {
+    width: 100%;
+}
+.dropdown a {
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.dropdown a:hover {
+    font-size: 21px;
+    color: #09d9d6;
+}
+small{
+    color: white;
+}
+section{
+    padding-top: 100px;
+    width: 100%;
+    height: 70%;
+    height: 500px;
+    display: flex;
+    padding-left: 50px;
+}
+.footer {
+    background: #222222;
+    padding-top: 90px;
+    padding-left: 10px;
+}
+
+.newslatter_form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.ente {
+    color: #000;
+    border: inherit;
+    padding: 0 30px;
+    height: 50px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 2px;
+}
+.subs_btn {
+    max-width: 289px;
+    display: inline-block;
+    background: #151515;
+    height: 50px;
+    width: 70%;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.subs_btn:hover {
+    background: #fff;
+    color: #151515;
+    border-radius: 4px;
+}
+.Informa h3 {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 21px;
+    margin-bottom: 15px;
+    margin-top: 26px;
+    text-transform: uppercase;
+}
+.Informa li {
+    padding-right: 250px;
+    list-style: none;
+    font-size: 17px;
+    line-height: 37px;
+    color: #ffffff;
+}
+.Informa li a:hover {
+    color: #bdbdbe;
+}
+.helpful ul li a {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+}
+.helpful ul li a:hover {
+    color: #bdbdbe;
+}
+ul.social_icon {
+    float: right;
+}
+ul.social_icon li {
+    display: inline-block;
+    padding-right: 15px;
+}
+ul.social_icon li:last-child {
+    padding-right: 0;
+}
+ul.social_icon li a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    font-size: 28px;
+    font-weight: bold;
+}
+ul.social_icon li a:hover {
+    color: #bdbdbe;
+    transform: rotate(360deg);
+    transition: ease-in all 0.7s;
+}
+.conta ul li a {
+    color: #ffffff;
+}
+.conta ul li a i {
+    padding-right: 5px;
+}
+.copyright {
+    background: #151515;
+    margin-top: 80px;
+    padding: 20px 0px;
+}
+.copyright p {
+    color: #bdbdbe;
+    font-weight: 400;
+}
+.copyright a {
+    color: #bdbdbe;
+}
+.copyright a:hover {
+    color: #fff;
+}

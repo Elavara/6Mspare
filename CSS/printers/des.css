@@ -1,0 +1,10 @@
+figure{
+	width:240px;
+	border:1px solid white;
+	padding:10px;
+}
+figure:hover{
+	border:solid 1px black;
+	background-color:lightblue;
+	
+}

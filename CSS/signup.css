@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header {
+	margin-bottom: 20px;
+	padding-left: 50px;
+	margin-top: 20px;
+	font-weight: 300;
+	font-size: 20px;
+	position:fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	padding-bottom: 650px;
+	}
+header a{
+	text-decoration: none;
+	color: #fff;
+	}	
+header a:hover{
+	font-weight:600;
+	color: deeppink;	
+	}
+body 
+{
+	width:95%;
+	height:auto;
+	margin:auto;
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	min-height: 70vh;
+	flex-direction: column;
+	background-image: url(bg2.png);
+}
+.box 
+{
+	position: relative;
+	width: 400px;
+	height: 650px;
+	margin-top: 0px;
+	margin-left: 35%;
+	overflow: hidden;
+}
+form 
+{
+	position: absolute;
+	inset: 2px;
+	padding: 50px 50px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+}
+h2 
+{
+	color: white;
+	font-weight: 500;
+	text-align: center;
+}
+.inputBox 
+{
+	position: relative;
+	width: 300px;
+	margin-top: 35px;
+}
+.inputBox input 
+{
+	position: relative;
+	width: 100%;
+	padding: 20px 10px 10px;
+	background: transparent;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	color: #23242a;
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+	z-index: 10;
+}
+.inputBox span 
+{
+	position: absolute;
+	left: 0;
+	padding: 20px 0px 10px;
+	pointer-events: none;
+	font-size: 1em;
+	color: #fffefe;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span 
+{
+	font-weight: 600;
+	transform: translateX(0px) translateY(-34px);
+	font-size: 0.75em;
+}
+.inputBox i 
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: #45f3ff;
+	border-radius: 4px;
+	overflow: hidden;
+	pointer-events: none;
+	z-index: 9;
+}
+.inputBox input:valid ~ i,
+.inputBox input:focus ~ i 
+{
+	height: 44px;
+}
+.links 
+{
+	display: flex;
+	justify-content: space-between;
+}
+.links a 
+{
+	margin: 10px 0;
+	font-size: 0.75em;
+	color: #8f8f8f;
+	text-decoration: beige;
+}
+.links a:hover, 
+.links a:nth-child(2)
+{
+	color: deeppink;
+	font-weight: 600;
+}
+input[type="submit"]
+{
+	border: none;
+	outline: none;
+	padding: 11px 25px;
+	background: #45f3ff;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: 600;
+	width: 100px;
+	margin-top: 10px;
+}
